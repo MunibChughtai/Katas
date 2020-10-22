@@ -1,10 +1,13 @@
 def generate_fizz_buzz(numbers):
-    for number in range(1, numbers):
-        if number%3==0 and number%5==0:
-            print('FizzBuzz')
-        elif number%3==0:
-            print('Fizz')
-        elif number%5==0:
-            print('Buzz')
+    fizz_buzz_series = []
+
+    for number in range(1, numbers + 1):
+        if number % 3 == 0 and number % 5 == 0:
+            fizz_buzz_series.append('FizzBuzz')
+        elif number % 3 == 0:
+            fizz_buzz_series.append('Fizz')
+        elif number % 5 == 0:
+            fizz_buzz_series.append('Buzz')
         else:
-            print(number)
+            fizz_buzz_series.append(number)
+    return fizz_buzz_series
