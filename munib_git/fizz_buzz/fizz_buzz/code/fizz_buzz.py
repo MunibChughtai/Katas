@@ -8,5 +8,3 @@ def generate_fizz_buzz(numbers):
             print('Buzz')
         else:
             print(number)
-
-generate_fizz_buzz(20) # testing only
