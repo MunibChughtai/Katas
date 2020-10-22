@@ -1,0 +1,23 @@
+- Initiate class
+- input single employee details (getter and setter methods)
+    - first name*
+    - last name*
+    - annual salary .. this must be positive
+    - super rate
+    - payment start date
+    - payment end date
+
+- for a gross intest casescome - verification write test case
+- for tax write income
+-
+
+Calculations to be done:
+- gross income (annual sal / 12) (rounded)
+- income tax calculation (rounded)
+- net income = gross income - tax
+- super = gross income * super_rate (rounded)
+-------------------------------------------------
+
+-- about input, how to write its test cases
+-- about constructor, it came late
+
